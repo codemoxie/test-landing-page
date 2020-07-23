@@ -181,7 +181,7 @@ nav a:active {
     margin-bottom: 50px;
 }
 
-.top-btn {
+.btn {
     padding: 18px 40px;
     font-family: 'ralewayextrabold';
     font-size: 14px;
@@ -195,13 +195,13 @@ nav a:active {
     cursor: pointer;
 }
 
-.top-btn:hover {
+.btn:hover {
     color: #998675;
     background: #5d534a;
     border-bottom: 2px solid #fff;
 }
 
-.top-btn:active {
+.btn:active {
     color: #5d534a;
     background: #fff;
     border-bottom: 2px solid #998675;
@@ -251,6 +251,7 @@ nav a:active {
     padding: 80px 15px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     color: #555555;
@@ -260,14 +261,13 @@ nav a:active {
     content: "";
     display: block;
     width: 80px;
-    height: 3px;
+    height: 2px;
     background: #555555;
 }
 
 .item-card svg {
-    margin-bottom: ;
+    margin-bottom: 28px;
     fill: #555555;
-    text-align: center;
 }
 
 .item-card span {
@@ -278,6 +278,7 @@ nav a:active {
 .item-card p {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    margin: 24px auto;
 }
 
 .item-card:hover svg {
@@ -293,5 +294,58 @@ nav a:active {
 }
 
 .item-real {
-    background: #fbfaf8;
+    padding-top: 82px;
+    color: #555;
+    text-align: center;
+    background-color: #fbfaf8;
+}
+
+.item-real h2 {
+    margin: 0 auto;
+    font-family: 'ralewaysemibold';
+    font-size: 30px;
+}
+
+.item-real p {
+    width: 50%;
+    margin: 0 auto;
+    padding: 36px 0;
+}
+
+.bg {
+    margin: 0 auto;
+    width: 70%;
+    height: 482px;
+    background-image: url(img/browser-center.png), url(img/browser-right.png), url(img/browser-left.png);
+    background-position: bottom center, bottom right, bottom left;
+    background-repeat: no-repeat;
+}
+
+.gradient {
+    background: linear-gradient(90deg, rgba(55, 39, 32, 1) 0%, rgba(76, 50, 38, 1) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grad-wrap {
+    padding: 46px 0;
+}
+
+.grad-wrap span {
+    font-family: 'ralewayregular';
+    font-size: 28px;
+    color: #fff;
+
+}
+
+.grad-wrap a {
+    text-decoration: none;
+    color: #998675;
+}
+
+.grad-wrap p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #615855;
 }
