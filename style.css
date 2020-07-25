@@ -59,7 +59,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    position: absolute;
+    left: 20%;
 }
 
 .logo {
@@ -143,7 +144,7 @@ nav a:active {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 312px;
+    padding-top: 312px;
 }
 
 .top-arrow {
@@ -348,4 +349,130 @@ nav a:active {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     color: #615855;
+}
+
+.project {
+    width: 100%;
+    margin: 0 auto;
+    padding: 78px 0;
+    background: #fff;
+    text-align: center;
+    color: #555;
+}
+
+.project h2 {
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: 'ralewaysemibold';
+    font-size: 30px;
+}
+
+.project p {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    width: 50%;
+
+}
+
+.project ul {
+    display: flex;
+    justify-content: center;
+}
+
+.project li {
+    margin: 40px 6px;
+    padding: 10px 24px;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    box-shadow: 0 0 1px 0;
+    border-radius: 3px;
+}
+
+.project a {
+    text-decoration: none;
+    color: #555;
+
+}
+
+.project li:hover {
+    background: #998675;
+    cursor: pointer;
+}
+
+.project li:hover a {
+    color: #fff;
+}
+
+.project li:active {
+    transform: scale(1.2, 1.2);
+    transition: .2s;
+}
+
+.poject-wrap {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.poject-wrap figure {
+    padding-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    background: #fbfaf8;
+}
+
+.project-wrap_item span {
+    margin-top: 32px;
+    margin-left: 36px;
+    font-family: 'ralewaymedium';
+    font-size: 20px;
+    text-align: left;
+    color: #c7b299;
+}
+
+.project-wrap_item {
+    position: relative;
+}
+
+.project-wrap_item:hover {
+    cursor: pointer;
+}
+
+.project-wrap_item::before {
+    content: "";
+    border: 20px solid transparent;
+    border-bottom: 12px solid #fbfaf8;
+    position: absolute;
+    bottom: 114px;
+    left: 20px;
+}
+
+.project-wrap_item p {
+    width: 100%;
+    margin: 14px 36px;
+    font-size: 14px;
+    color: #d1d1d1;
+    text-align: left;
+}
+
+.player {
+    position: relative;
+}
+
+video {
+    position: absolute;
+}
+
+.player div {
+    color: #fff;
+    text-align: center;
+}
+
+.player svg {
+    fill: #fff;
 }
